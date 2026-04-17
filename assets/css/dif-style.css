@@ -218,4 +218,22 @@ nav a:hover{
 /* <==================Comienzo de Diferencias.html(main) =================> */
 .main{
     min-height: 100dvh;
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/portada-pueblo-sin-lion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-diferencias{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 50px;
+}
+
+.titulo-diferencias:hover{
+    color: #B11226;
+}
+
+.sub-indices-diferencias{
+    margin-left: 15%;
 }
