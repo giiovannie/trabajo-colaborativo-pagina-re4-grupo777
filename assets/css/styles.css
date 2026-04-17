@@ -1,217 +1,217 @@
-/*
-Descripcion: estilos genrales para las paginas del RE4
-17/04/26
-*/
+    /*
+    Descripcion: estilos genrales para las paginas del RE4
+    17/04/26
+    */
 
-/* =========================================
-PALETA DE COLORES - PROYECTO RE4 
-Inspirado en Resident Evil 4 Remake + PlayStation
-=============================================
-<=== rojos ===>
-#8B0000  -> Rojo oscuro (base, más serio y terror)
-#FF2A2A  -> Rojo brillante (para resaltar o hover)
-#B11226  -> Rojo Resident Evil clásico (principal)
-#7A0C18  -> Rojo oscuro profundo (sombra / variante)
+    /* =========================================
+    PALETA DE COLORES - PROYECTO RE4 
+    Inspirado en Resident Evil 4 Remake + PlayStation
+    =============================================
+    <=== rojos ===>
+    #8B0000  -> Rojo oscuro (base, más serio y terror)
+    #FF2A2A  -> Rojo brillante (para resaltar o hover)
+    #B11226  -> Rojo Resident Evil clásico (principal)
+    #7A0C18  -> Rojo oscuro profundo (sombra / variante)
 
-<=== Azules (UI / Navegación / Botones) ===>
-#003791  -> Azul principal (header, navbar)
-#005CFF  -> Azul secundario (hover, detalles)
+    <=== Azules (UI / Navegación / Botones) ===>
+    #003791  -> Azul principal (header, navbar)
+    #005CFF  -> Azul secundario (hover, detalles)
 
-<=== Negros y grises (fondos) ==>
-#0A0A0A  -> Fondo principal (body)
-#1C1C1C  -> Secciones (cards, containers)
-#2A2A2A  -> Bordes suaves / separadores
+    <=== Negros y grises (fondos) ==>
+    #0A0A0A  -> Fondo principal (body)
+    #1C1C1C  -> Secciones (cards, containers)
+    #2A2A2A  -> Bordes suaves / separadores
 
-<=== Amarillos para texto ===>
-#FFD60A  -> Texto destacado (títulos cortos, palabras clave)
-#FFF3B0  -> Texto suave (no cansa la vista, mejor para leer)
+    <=== Amarillos para texto ===>
+    #FFD60A  -> Texto destacado (títulos cortos, palabras clave)
+    #FFF3B0  -> Texto suave (no cansa la vista, mejor para leer)
 
-<===  Texto ===>
-#F5F5F5  -> Texto principal
-#B0B0B0  -> Texto secundario
+    <===  Texto ===>
+    #F5F5F5  -> Texto principal
+    #B0B0B0  -> Texto secundario
 
-<=== Acentos ===> 
-#FFD60A  -> Botones importantes / hover / detalles clave
-
-
-=========================================
-    TIPOGRAFÍAS - PROYECTO
-=========================================
-
-/*
-Títulos principales (estilo terror):
-- 'Creepster', cursive
-
-Subtítulos / UI (estilo gamer):
-- 'Orbitron', sans-serif
-
-Texto general:
-- 'Inter', sans-serif
-*/
+    <=== Acentos ===> 
+    #FFD60A  -> Botones importantes / hover / detalles clave
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+    =========================================
+        TIPOGRAFÍAS - PROYECTO
+    =========================================
 
-body{
-    background-color: #0A0A0A;
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
-}
+    /*
+    Títulos principales (estilo terror):
+    - 'Creepster', cursive
 
-/*<=================== inicio desarrollo header ==============>*/
-/*=== desarrollo de estilos a todos los headers de las demas paginas*/
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #003791;
-}
+    Subtítulos / UI (estilo gamer):
+    - 'Orbitron', sans-serif
 
-.logotipo{
-    display: flex;
-    width: 30%;
-    align-items: center;
-    gap: 20px;
-    padding: 0 8px;
-}
-
-.h1-index{
-    color: #f5f5f5;
-    text-wrap: nowrap;
-}
-
-.logo-container{
-    max-width: 14%;
-}
-
-.logo-container img{
-    width: 100%;
-}
-
-.h2-header{
-    color: #f5f5f5;
-    font-size: 2.1rem;
-}
-
-.span-letra{
-    color: #B11226 ;
-}
+    Texto general:
+    - 'Inter', sans-serif
+    */
 
 
-nav{
-    margin-right: 20px;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
+    body {
+        background-color: #0A0A0A;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+    }
 
-nav li{
-    display: inline-block;
-}
+    /*<=================== inicio desarrollo header ==============>*/
+    /*=== desarrollo de estilos a todos los headers de las demas paginas*/
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #003791;
+    }
 
-nav a{
-    color: #f5f5f5;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 5px 8px;
-    transition: 0.1s;
-}
+    .logotipo {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        gap: 20px;
+        padding: 0 8px;
+    }
 
-nav a:hover{
-    color: #FFd60a;
-    border-bottom: 2px solid #FFD60A;
-}
+    .h1-index {
+        color: #f5f5f5;
+        text-wrap: nowrap;
+    }
 
-/*<=================== fin desarrollo header ==============>*/
+    .logo-container {
+        max-width: 14%;
+    }
+
+    .logo-container img {
+        width: 100%;
+    }
+
+    .h2-header {
+        color: #f5f5f5;
+        font-size: 2.1rem;
+    }
+
+    .span-letra {
+        color: #B11226;
+    }
+
+
+    nav {
+        margin-right: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        color: #f5f5f5;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 5px 8px;
+        transition: 0.1s;
+    }
+
+    nav a:hover {
+        color: #FFd60a;
+        border-bottom: 2px solid #FFD60A;
+    }
+
+    /*<=================== fin desarrollo header ==============>*/
 
 
 
-/*<=================== inicio desarrollo footer (diseño general) ==============>*/
-.footer{
-    background-color: #003791;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 8px;
-}
+    /*<=================== inicio desarrollo footer (diseño general) ==============>*/
+    .footer {
+        background-color: #003791;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 8px;
+    }
 
-.section-footer-1{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    width: 25%;
-}
+    .section-footer-1 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        width: 25%;
+    }
 
-.section-footer-1 h2,p{
-    color: #f5f5f5;
-}
+    .section-footer-1 h2,
+    p {
+        color: #f5f5f5;
+    }
 
-.content-img-footer{
-    max-width: 20%;
-}
+    .content-img-footer {
+        max-width: 20%;
+    }
 
-.content-img-footer img{
-    width: 100%;
-}
+    .content-img-footer img {
+        width: 100%;
+    }
 
-/*section de logos de redes sociales de la pagina*/
-.section-social{
-    margin-right: 10px;
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-}
+    /*section de logos de redes sociales de la pagina*/
+    .section-social {
+        margin-right: 10px;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
 
-.h5-footer{
-    text-align: center;
-    font-size: 1.6rem;
-    color: #f5f5f5;
-}
+    .h5-footer {
+        text-align: center;
+        font-size: 1.6rem;
+        color: #f5f5f5;
+    }
 
-.contenedor-logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
+    .contenedor-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
 
-.logo-footer{
-    width: 50px;
-}
+    .logo-footer {
+        width: 50px;
+    }
 
-.logo-footer img{
-    width: 100%;
-}
+    .logo-footer img {
+        width: 100%;
+    }
 
-.logo-footer:first-child{
-    width: 44px;
-}
+    .logo-footer:first-child {
+        width: 44px;
+    }
 
-.logo-footer:last-child{
-    width: 40px;
-}
+    .logo-footer:last-child {
+        width: 40px;
+    }
 
-/*section de los integrantes del grupo*/
-.integrantes{
-    display: flex;
-    flex-direction: column;
-}
+    /*section de los integrantes del grupo*/
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+    }
 
-.list-footer{
-    margin: 10px;
-    color: #f5f5f5;
-}
+    .list-footer {
+        margin: 10px;
+        color: #f5f5f5;
+    }
 
-/*<=================== fin desarrollo footer(diseño general) ==============>*/
-
+    /*<=================== fin desarrollo footer(diseño general) ==============>*/
