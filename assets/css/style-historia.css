@@ -225,7 +225,7 @@ p {
 .seccion-historia {
   display: grid;
   gap: 10px;
-  border: solid white;
+  border: solid rgb(151, 151, 151);
   border-radius: 17px;
   margin: 5%;
   background-color: transparent;
@@ -251,6 +251,7 @@ p {
 }
 .historia1 > img {
   padding-right: 70px;
+  border-radius: 5px;
 }
 
 .historia2 {
@@ -265,6 +266,7 @@ p {
 }
 .historia2 > img {
   padding-left: 70px;
+  border-radius: 5px;
 }
 
 .historia3 {
@@ -274,6 +276,7 @@ p {
 }
 .historia3 > img {
   scale: 80%;
+  border-radius: 5px;
 }
 .historia3 > p {
   text-align: center;
