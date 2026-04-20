@@ -1,8 +1,43 @@
 body {
-    background: url(/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png);
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
+    background-image: url("/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+.leon {
+    width: 1850px;
+    height: auto;
+}
+
+.leon-texto {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ashley {
+    width: 1850px;
+    height: auto;
+}
+
+.ashley-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
 
 .header {
     display: flex;
