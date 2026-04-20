@@ -215,28 +215,67 @@ p {
 /*<=================== inicio desarrollo pagina de historia ==============>*/
 
 /*Estilo de la seccion historia*/
+
+.main {
+  background-image: url(/assets/img/paquete-de-img-fondos-re4/portada-pueblo-sin-lion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seccion-historia {
+  display: grid;
+  gap: 10px;
+}
+
 .h2-historia {
   text-align: center;
   color: #f5f5f5;
 }
 
-.p-historia1 {
+.historia1 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1em;
+  align-items: center;
+}
+.historia1 > p {
   text-align: center;
-  color: #f5f5f5;
-  margin-left: 30%;
-  margin-right: 30%;
+  padding: 10%;
+  font-size: 20px;
+}
+.historia1 > img {
+  padding-right: 70px;
 }
 
-.p-historia2 {
+.historia2 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.historia2 > p {
   text-align: center;
-  color: #f5f5f5;
-  margin-left: 30%;
-  margin-right: 30%;
+  padding: 10%;
+  font-size: 20px;
+}
+.historia2 > img {
+  padding-left: 70px;
 }
 
-.p-historia3 {
+.historia3 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.historia3 > img {
+  scale: 80%;
+}
+.historia3 > p {
   text-align: center;
-  color: #f5f5f5;
-  margin-left: 30%;
-  margin-right: 30%;
+  padding: 10%;
+  font-size: 20px;
+}
+
+.historiaf {
+  text-align: center;
+  color: antiquewhite;
 }
