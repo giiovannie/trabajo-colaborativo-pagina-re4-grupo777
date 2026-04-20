@@ -22,9 +22,17 @@ body {
     font-size: 30px;
 }
 
+.leon-titulo {
+    color: yellow;
+}
+
 .ashley {
     width: 1850px;
     height: auto;
+}
+
+.ashley-titulo {
+    color: rgb(115, 79, 11)
 }
 
 .ashley-text {
@@ -37,6 +45,243 @@ body {
     left: 60%;
     font-size: 30px;
 }
+
+.ada {
+    width: 1850px;
+    height: auto;
+}
+
+.ada-titulo {
+    color: #670a17;
+}
+
+.ada-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 1600px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ada-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.luis {
+    width: 1850px;
+    height: auto;
+}
+
+.luis-titulo {
+    color: #fffffe;
+}
+
+.luis-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 2500px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.luis-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.ingrid {
+    width: 1850px;
+    height: auto;
+}
+
+.ingrid-titulo {
+    color: #507bef;
+}
+
+.ingrid-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 3200px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 380px;
+    top: 3050px;
+    left: 45%;
+}
+
+.bitores {
+    width: 1850px;
+    height: auto;
+}
+
+.bitores-titulo {
+    color: #747576;
+}
+
+.bitores-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 3900px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.bitores-img {
+    position: absolute;
+    width: 350px;
+    top: 3770px;
+    left: 45%;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 380px;
+    top: 3050px;
+    left: 45%;
+}
+
+
+.ramon {
+    width: 1850px;
+    height: auto;
+}
+
+.ramon-titulo {
+    color: #070090;
+}
+
+.ramon-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 4600px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.ramon-img {
+    position: absolute;
+    width: 550px;
+    top: 4580px;
+    left: 35%;
+}
+
+.krauser {
+    width: 1850px;
+    height: auto;
+}
+
+.krauser-titulo {
+    color: #850c0c;
+}
+
+.krauser-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 5400px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.sad {
+    width: 1850px;
+    height: auto;
+}
+
+.sad-titulo {
+    color: #0a4c03;
+}
+
+.sad-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 6100px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.sad-img {
+    position: absolute;
+    width: 450px;
+    top: 6000px;
+    left: 45%;
+}
+
+.buo {
+    width: 1850px;
+    height: auto;
+}
+
+.buo-titulo {
+    color: #362702;
+}
+
+.buo-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 6800px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.buo-img {
+    position: absolute;
+    width: 400px;
+    top: 6780px;
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .header {
