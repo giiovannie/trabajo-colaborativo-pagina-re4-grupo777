@@ -225,11 +225,17 @@ p {
 .seccion-historia {
   display: grid;
   gap: 10px;
+  border: solid white;
+  border-radius: 17px;
+  margin: 5%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .h2-historia {
   text-align: center;
   color: #f5f5f5;
+  font-size: 36px;
 }
 
 .historia1 {
