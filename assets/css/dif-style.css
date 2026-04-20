@@ -50,13 +50,13 @@ Texto general:
 */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #0A0A0A;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
@@ -64,7 +64,7 @@ body{
 
 /*<=================== inicio desarrollo header ==============>*/
 /*=== desarrollo de estilos a todos los headers de las demas paginas*/
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +72,7 @@ body{
     background-color: #003791;
 }
 
-.logotipo{
+.logotipo {
     display: flex;
     width: 30%;
     align-items: center;
@@ -80,44 +80,44 @@ body{
     padding: 0 8px;
 }
 
-.h1-index{
+.h1-index {
     color: #f5f5f5;
     text-wrap: nowrap;
 }
 
-.logo-container{
+.logo-container {
     max-width: 14%;
 }
 
-.logo-container img{
+.logo-container img {
     width: 100%;
 }
 
-.h2-header{
+.h2-header {
     color: #f5f5f5;
     font-size: 2.1rem;
 }
 
-.span-letra{
-    color: #B11226 ;
+.span-letra {
+    color: #B11226;
 }
 
 
-nav{
+nav {
     margin-right: 20px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
-nav a{
+nav a {
     color: #f5f5f5;
     text-decoration: none;
     font-size: 1.1rem;
@@ -127,7 +127,7 @@ nav a{
     transition: 0.1s;
 }
 
-nav a:hover{
+nav a:hover {
     color: #FFd60a;
     border-bottom: 2px solid #FFD60A;
 }
@@ -137,7 +137,7 @@ nav a:hover{
 
 
 /*<=================== inicio desarrollo footer (diseño general) ==============>*/
-.footer{
+.footer {
     background-color: #003791;
     display: flex;
     align-items: center;
@@ -146,77 +146,80 @@ nav a:hover{
     padding: 8px;
 }
 
-.section-footer-1{
+.section-footer-1 {
     display: flex;
     flex-direction: column;
     width: auto;
     width: 25%;
 }
 
-.section-footer-1 h2,p{
+.section-footer-1 h2,
+p {
     color: #f5f5f5;
 }
 
-.content-img-footer{
+.content-img-footer {
     max-width: 20%;
 }
 
-.content-img-footer img{
+.content-img-footer img {
     width: 100%;
 }
 
 /*section de logos de redes sociales de la pagina*/
-.section-social{
+.section-social {
     margin-right: 10px;
     display: flex;
     gap: 5px;
     flex-direction: column;
 }
 
-.h5-footer{
+.h5-footer {
     text-align: center;
     font-size: 1.6rem;
     color: #f5f5f5;
 }
 
-.contenedor-logos{
+.contenedor-logos {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
 
-.logo-footer{
+.logo-footer {
     width: 50px;
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 100%;
 }
 
-.logo-footer:first-child{
+.logo-footer:first-child {
     width: 44px;
 }
 
-.logo-footer:last-child{
+.logo-footer:last-child {
     width: 40px;
 }
 
 /*section de los integrantes del grupo*/
-.integrantes{
+.integrantes {
     display: flex;
     flex-direction: column;
 }
 
-.list-footer{
+.list-footer {
     margin: 10px;
     color: #f5f5f5;
 }
 
 /*<=================== fin desarrollo footer(diseño general) ==============>*/
 
+
+
 /* <==================Comienzo de Diferencias.html(main) =================> */
-.main{
+.referencias {
     min-height: 100dvh;
     background-image: url(/assets/img/paquete-de-img-fondos-re4/portada-pueblo-sin-lion.png);
     background-repeat: no-repeat;
@@ -224,16 +227,65 @@ nav a:hover{
     background-position: center;
 }
 
-.titulo-diferencias{
+
+.titulo-diferencias {
     color: #f5f5f5;
+    padding: 18px;
     text-align: center;
     font-size: 50px;
 }
 
-.titulo-diferencias:hover{
+.titulo-diferencias:hover {
     color: #B11226;
 }
 
-.sub-indices-diferencias{
+.subtitulo-diferencias {
+    padding: 18px;
+    color: #f5f5f5;
+    font-size: 38px;
+    text-align: center;
+}
+
+.subtitulo-diferencias:hover {
+    color: #B11226;
+}
+
+.sub-indices-diferencias {
     margin-left: 15%;
+    padding: 10px;
+    margin-right: 50%;
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/barra.jpg);
+}
+
+.Diferencias {
+    min-height: 100dvh;
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/menu+de+galeria2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.dif-titulo {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.original {
+    padding: 40px;
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+
+.REMAKE {
+    padding: 40px;
+    width: 70%;
+    color: white;
+    text-align: center;
 }
