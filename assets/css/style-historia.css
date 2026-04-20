@@ -50,15 +50,15 @@ Texto general:
 */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #0a0a0a;
-  display: grid;
-  grid-template-rows: auto auto 1fr auto;
+    background-color: #0a0a0a;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 /*<=================== inicio desarrollo header ==============>*/
@@ -254,88 +254,94 @@ footer section:last-child {
 /*Estilo de la seccion historia*/
 
 .main {
-  background-image: url(/assets/img/paquete-de-img-fondos-re4/portada-pueblo-sin-lion.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/portada-pueblo-sin-lion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .seccion-historia {
-  display: grid;
-  gap: 10px;
-  border: solid rgb(151, 151, 151);
-  border-radius: 17px;
-  margin: 5%;
-  background-color: transparent;
-  backdrop-filter: blur(10px);
+    display: grid;
+    gap: 10px;
+    border: solid rgb(151, 151, 151);
+    border-radius: 17px;
+    margin: 5%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .h2-historia {
-  text-align: center;
-  color: #f5f5f5;
-  font-size: 36px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 36px;
 }
 
 .historia1 {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1em;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1em;
+    align-items: center;
 }
+
+p{
+    color: #f5f5f5;
+    font-weight: 600;
+}
+
 .historia1 > p {
-  text-align: center;
-  padding: 10%;
-  font-size: 20px;
+    text-align: center;
+    padding: 10%;
+    font-size: 20px;
 }
 .historia1 > img {
-  padding-right: 70px;
-  border-radius: 5px;
+    padding-right: 70px;
+    border-radius: 5px;
 }
 
 .historia2 {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 .historia2 > p {
-  text-align: center;
-  padding: 10%;
-  font-size: 20px;
+    text-align: center;
+    padding: 10%;
+    font-size: 20px;
 }
 .historia2 > img {
-  padding-left: 70px;
-  border-radius: 5px;
-}
+    padding-left: 70px;
+    border-radius: 5px;
+    }
 
 .historia3 {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 .historia3 > img {
-  scale: 80%;
-  border-radius: 5px;
+    scale: 80%;
+    border-radius: 5px;
 }
 .historia3 > p {
-  text-align: center;
-  padding: 10%;
-  font-size: 20px;
+    text-align: center;
+    padding: 10%;
+    font-size: 20px;
 }
 
 .historiaf {
-  text-align: center;
-  color: antiquewhite;
+    text-align: center;
+    color: antiquewhite;
 }
 
 .promo {
-  text-align: center;
-  font-size: 26px;
-  color: antiquewhite;
-  margin-bottom: 150px;
+    text-align: center;
+    font-size: 26px;
+    color: antiquewhite;
+    margin-bottom: 150px;
 }
 
 .boton-psn {
-  border-radius: 5px;
-  position: absolute;
-  bottom: 60px;
-  left: 440px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 60px;
+    left: 440px;
 }
