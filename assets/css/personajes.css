@@ -1,0 +1,428 @@
+body {
+    background-image: url("/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.leon {
+    width: 1850px;
+    height: auto;
+}
+
+.leon-texto {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.leon-titulo {
+    color: yellow;
+}
+
+.ashley {
+    width: 1850px;
+    height: auto;
+}
+
+.ashley-titulo {
+    color: rgb(115, 79, 11)
+}
+
+.ashley-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ada {
+    width: 1850px;
+    height: auto;
+}
+
+.ada-titulo {
+    color: #670a17;
+}
+
+.ada-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 1600px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ada-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.luis {
+    width: 1850px;
+    height: auto;
+}
+
+.luis-titulo {
+    color: #fffffe;
+}
+
+.luis-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 2500px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.luis-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.ingrid {
+    width: 1850px;
+    height: auto;
+}
+
+.ingrid-titulo {
+    color: #507bef;
+}
+
+.ingrid-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 3200px;
+    text-align: center;
+    margin: 30px;
+    left: 60%;
+    font-size: 30px;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 300px;
+    top: 1565px;
+    left: 45%;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 380px;
+    top: 3050px;
+    left: 45%;
+}
+
+.bitores {
+    width: 1850px;
+    height: auto;
+}
+
+.bitores-titulo {
+    color: #747576;
+}
+
+.bitores-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 3900px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.bitores-img {
+    position: absolute;
+    width: 350px;
+    top: 3770px;
+    left: 45%;
+}
+
+.ingrid-img {
+    position: absolute;
+    width: 380px;
+    top: 3050px;
+    left: 45%;
+}
+
+
+.ramon {
+    width: 1850px;
+    height: auto;
+}
+
+.ramon-titulo {
+    color: #070090;
+}
+
+.ramon-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 4600px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.ramon-img {
+    position: absolute;
+    width: 550px;
+    top: 4580px;
+    left: 35%;
+}
+
+.krauser {
+    width: 1850px;
+    height: auto;
+}
+
+.krauser-titulo {
+    color: #850c0c;
+}
+
+.krauser-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 5400px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.sad {
+    width: 1850px;
+    height: auto;
+}
+
+.sad-titulo {
+    color: #0a4c03;
+}
+
+.sad-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 6100px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.sad-img {
+    position: absolute;
+    width: 450px;
+    top: 6000px;
+    left: 45%;
+}
+
+.buo {
+    width: 1850px;
+    height: auto;
+}
+
+.buo-titulo {
+    color: #362702;
+}
+
+.buo-text {
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 6800px;
+    text-align: center;
+    margin: 30px;
+    left: 65%;
+    font-size: 30px;
+}
+
+.buo-img {
+    position: absolute;
+    width: 400px;
+    top: 6780px;
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #003791;
+}
+
+.logotipo {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    gap: 20px;
+    padding: 0 8px;
+}
+
+.h1-index {
+    color: #f5f5f5;
+    text-wrap: nowrap;
+}
+
+.logo-container {
+    max-width: 14%;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.h2-header {
+    color: #f5f5f5;
+    font-size: 2.1rem;
+}
+
+.span-letra {
+    color: #B11226;
+}
+
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    color: #FFd60a;
+    border-bottom: 2px solid #FFD60A;
+}
+
+.footer {
+    background-color: #003791;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+}
+
+.section-footer-1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    width: 25%;
+}
+
+.section-footer-1 h2,
+p {
+    color: #f5f5f5;
+}
+
+.content-img-footer {
+    max-width: 20%;
+}
+
+.content-img-footer img {
+    width: 100%;
+}
+
+.section-social {
+    margin-right: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.h5-footer {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #f5f5f5;
+}
+
+.contenedor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-footer {
+    width: 50px;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.logo-footer:first-child {
+    width: 44px;
+}
+
+.logo-footer:last-child {
+    width: 40px;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-footer {
+    margin: 10px;
+    color: #f5f5f5;
+}
