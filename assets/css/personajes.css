@@ -1,10 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
-    background-image: url("/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png");
+    background-image: url("/Pagina_RE4/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 
 .leon {
     width: 1850px;
