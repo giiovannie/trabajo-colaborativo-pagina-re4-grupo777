@@ -1,0 +1,89 @@
+#Grupo de trabajo nro 777
+
+## Actividad por Integrante
+
+- **ivan gomez**: yo me encargue de hacer diseños y creacion de estructura del inidex, ala vez fui yo quien 
+hizo la estructura fuente (inclueye solo el header y foter que las demas paginas contienen)
+
+
+- **mariano pino**: 
+
+
+- ** rojas gonzalo**:
+
+
+- **pablo acuña**:
+
+## Dificultades:
+
+Encontramos dificultades como grupo en que nuestras rutas de imagenes no coincidian dando resultados diferentes 
+en cada repo local de los integrantes del grupo
+
+
+
+- **ivan gomez**: yo tuve problema en crear el git puesto que lo inicie en la carpeta equivocada ademas que me costo
+navegar por carpetas.
+
+
+- **mariano pino**: 
+
+
+- ** rojas gonzalo**:
+
+
+- **pablo acuña**:
+
+
+## Oraganizacion del trabajo 
+
+Para el trabajo se designo a una persona en crear la estructura base : "ivan gomez" y posteriormente se dictamino
+que contenido iba a tener el sitio , una vez decidido nos dividimos las paginas y cada uno trabajo por su parte 
+compartiendo los criterios de :
+- No tocar el header y el footer
+- Seguir la paleta de color creada
+- comentar las secciones 
+- avisar los merges que cada ubno queria hacer
+- crear carpetas de recurso de imagenes por separado
+- Cada integrante debia tener su css para trabajar
+
+#¿Qué ventaja encontraron al trabajar con Git y GitHub?
+
+
+- **ivan gomez**: la ventaja que tuve trabajando en git y github fue la reduccion de carga de tareas
+enfocandome solo en mi parte
+
+- **mariano pino**: 
+
+
+- ** rojas gonzalo**:
+
+
+- **pablo acuña**:
+
+
+# ¿Qué problema tuvieron al trabajar entre varias personas?
+
+- **ivan gomez**: el problema que tuve fue la rutas de las carpeta son distintas y no la tuve en cuenta
+
+- **mariano pino**: 
+
+
+- ** rojas gonzalo**:
+
+
+- **pablo acuña**:
+
+
+# ¿Por qué creen que usar ramas ayuda en un trabajo colaborativo?
+
+
+- **ivan gomez**: porque evita que la estructura general y funcional no quede afectada por imprevistos o choque
+con los demas desarrolladores
+
+- **mariano pino**: 
+
+
+- ** rojas gonzalo**:
+
+
+- **pablo acuña**:
