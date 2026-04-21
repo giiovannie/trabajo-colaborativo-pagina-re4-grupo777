@@ -9,7 +9,7 @@ hizo la estructura fuente (inclueye solo el header y foter que las demas paginas
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Yo estuve a cargo de generar el enlace sobre los Easter Eggs del videojuego, generando mi propio main.
 
 
 - **pablo acuña**:
@@ -28,7 +28,7 @@ navegar por carpetas.
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: En mi parte aún tengo problemas con el css, pero también se nos complico lograr unificar nuestras páginas.
 
 
 - **pablo acuña**:
@@ -55,7 +55,7 @@ enfocandome solo en mi parte
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: A parte de tener un solo trabajo, poder guardar los grandes cambios para luego poder volver sobre nuestros pasos fué algo que me ayudo. 
 
 
 - **pablo acuña**:
@@ -68,7 +68,7 @@ enfocandome solo en mi parte
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Yo considero que nos faltó mas comunicación entre nosotros, ya que tuvimos una confución de carpetas.
 
 
 - **pablo acuña**:
@@ -83,7 +83,7 @@ con los demas desarrolladores
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Ayuda a que cada uno pueda generar sus cambios sin afectar a los demás.
 
 
 - **pablo acuña**:
