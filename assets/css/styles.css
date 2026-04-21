@@ -1,78 +1,83 @@
 /*
-Descripcion: estilos genrales para las paginas del RE4
+Descripcion: estilos genrales para las paginas del RE4(header y footer) y estilos propio de la pagina inicio
 17/04/26
 */
 
 /* =========================================
-PALETA DE COLORES - PROYECTO RE4 
-Inspirado en Resident Evil 4 Remake + PlayStation
-=============================================
-<=== rojos ===>
-#8B0000  -> Rojo oscuro (base, más serio y terror)
-#FF2A2A  -> Rojo brillante (para resaltar o hover)
-#B11226  -> Rojo Resident Evil clásico (principal)
-#7A0C18  -> Rojo oscuro profundo (sombra / variante)
+    PALETA DE COLORES - PROYECTO RE4 
+    Inspirado en Resident Evil 4 Remake + PlayStation
+    =============================================
+    <=== rojos ===>
+    #8B0000  -> Rojo oscuro (base, más serio y terror)
+    #FF2A2A  -> Rojo brillante (para resaltar o hover)
+    #B11226  -> Rojo Resident Evil clásico (principal)
+    #7A0C18  -> Rojo oscuro profundo (sombra / variante)
 
-<=== Azules (UI / Navegación / Botones) ===>
-#003791  -> Azul principal (header, navbar)
-#005CFF  -> Azul secundario (hover, detalles)
+    <=== Azules (UI / Navegación / Botones) ===>
+    #003791  -> Azul principal (header, navbar)
+    #005CFF  -> Azul secundario (hover, detalles)
 
-<=== Negros y grises (fondos) ==>
-#0A0A0A  -> Fondo principal (body)
-#1C1C1C  -> Secciones (cards, containers)
-#2A2A2A  -> Bordes suaves / separadores
+    <=== Negros y grises (fondos) ==>
+    #0A0A0A  -> Fondo principal (body)
+    #1C1C1C  -> Secciones (cards, containers)
+    #2A2A2A  -> Bordes suaves / separadores
 
-<=== Amarillos para texto ===>
-#FFD60A  -> Texto destacado (títulos cortos, palabras clave)
-#FFF3B0  -> Texto suave (no cansa la vista, mejor para leer)
+    <=== Amarillos para texto ===>
+    #FFD60A  -> Texto destacado (títulos cortos, palabras clave)
+    #FFF3B0  -> Texto suave (no cansa la vista, mejor para leer)
 
-<===  Texto ===>
-#F5F5F5  -> Texto principal
-#B0B0B0  -> Texto secundario
+    <===  Texto ===>
+    #F5F5F5  -> Texto principal
+    #B0B0B0  -> Texto secundario
 
-<=== Acentos ===> 
-#FFD60A  -> Botones importantes / hover / detalles clave
-
-
-=========================================
-    TIPOGRAFÍAS - PROYECTO
-=========================================
-
-/*
-Títulos principales (estilo terror):
-- 'Creepster', cursive
-
-Subtítulos / UI (estilo gamer):
-- 'Orbitron', sans-serif
-
-Texto general:
-- 'Inter', sans-serif
-*/
+    <=== Acentos ===> 
+    #FFD60A  -> Botones importantes / hover / detalles clave
 
 
-*{
+    =========================================
+        TIPOGRAFÍAS - PROYECTO
+    =========================================
+
+    /*
+    Títulos principales (estilo terror):
+    - 'Creepster', cursive
+
+    Subtítulos / UI (estilo gamer):
+    - 'Orbitron', sans-serif
+
+    Texto general:
+    - 'Inter', sans-serif
+    */
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #0A0A0A;
+body {
+    background-color: #010F32;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
 
 /*<=================== inicio desarrollo header ==============>*/
 /*=== desarrollo de estilos a todos los headers de las demas paginas*/
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #003791;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    overflow: hidden;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
-.logotipo{
+.logotipo {
     display: flex;
     width: 30%;
     align-items: center;
@@ -80,138 +85,601 @@ body{
     padding: 0 8px;
 }
 
-.h1-index{
+.h1-index {
     color: #f5f5f5;
     text-wrap: nowrap;
+    text-shadow: 0px 0px 5px #0A0A0A;
 }
 
-.logo-container{
-    max-width: 14%;
+.logo-container {
+    max-width: 10%;
 }
 
-.logo-container img{
+.logo-container img {
     width: 100%;
-}
-
-.h2-header{
-    color: #f5f5f5;
-    font-size: 2.1rem;
-}
-
-.span-letra{
-    color: #B11226 ;
+    filter: drop-shadow(1px 1px 5px #0A0A0A);
 }
 
 
-nav{
+.span-letra {
+    color: #B11226;
+}
+
+.link-header {
+    text-decoration: none;
+    display: flex;
+}
+
+.link-header img {
+    width: 58%;
+}
+
+nav {
     margin-right: 20px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
-nav a{
+nav a {
     color: #f5f5f5;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 5px 8px;
     transition: 0.1s;
+    text-shadow: 1px 1px 5px #0A0A0A;
 }
 
-nav a:hover{
+nav a:hover {
     color: #FFd60a;
     border-bottom: 2px solid #FFD60A;
 }
 
 /*<=================== fin desarrollo header ==============>*/
 
-
-
-/*<=================== inicio desarrollo footer (diseño general) ==============>*/
-.footer{
-    background-color: #003791;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/*<======== desarrollo del main =============>*/
+/*==========================hero section==================*/
+.main {
     width: 100%;
-    padding: 8px;
-}
-
-.section-footer-1{
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    width: auto;
-    width: 25%;
 }
 
-.section-footer-1 h2,p{
+/*==== hero desarrollo ========*/
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    min-height: 100dvh;
+    align-items: center;
+    gap: 10%;
+    position: relative;
+}
+
+.vid-contenedor {
+    display: flex;
+    width: 100%;
+    min-height: 100dvh;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+}
+
+.contenido-informativo {
+    width: clamp(280px, 38vw, 520px);
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px 32px;
+    background: rgba(10, 10, 10, 0.35);
+    backdrop-filter: blur(16px) saturate(160%);
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.h3-hero {
+    color: #B11226;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+.description-hero {
+    color: #f5f5f5;
+    font-size: 1.5rem;
+}
+
+.content-btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.btn-hero {
+    display: flex;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 35%;
+    border: none;
+    height: 35px;
+}
+
+.hero-link {
+    color: #f5f5f5;
+    background-color: #ffd60ac5;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero-link:hover {
+    background-color: #B11226;
+}
+
+.hero-link:active {
+    transform: translateX(3px) translateY(2px);
+}
+
+.cont-img-hero img {
+    width: clamp(1500px, 90dvw, 2100px);
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    transform: translateY(0);
+    bottom: -8%;
+    filter: drop-shadow(2px 8px 24px rgba(226, 225, 225, 0.45));
+    transition: all 1.1s;
+    animation: flotar 3s linear infinite normal both;
+}
+
+.img-cont-hero {
+    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    filter: drop-shadow(1px 1px 5px #f5f5f5)
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY(0px)
+    }
+
+    30% {
+        transform: translateY(-12px)
+    }
+
+    50% {
+        transform: translateY(-14px)
+    }
+
+    70% {
+        transform: translateY(-10px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+/*======================== fin delhero section========================*/
+
+/*=================== desarrollo del about-game==============================*/
+.about-game {
+    width: 100%;
+    min-height: 100dvh;
+    background: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/background-gamer.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bloques {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    padding: 18px;
+    margin: 1%;
+}
+
+.contenedor-bloque-informativo {
+    width: 100%;
+}
+
+.bloque-2 {
+    flex-direction: row-reverse;
+}
+
+.h2-about {
+    font-size: 3rem;
+    text-wrap: nowrap;
+    text-align: center;
+    color: #02317e;
+}
+
+.bloque-2 h2 {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 10px #2c2b2b;
+}
+
+.bloque-2 p {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 10px #2c2b2b;
+}
+
+.descripcion-about {
+    font-size: 1.8rem;
+    color: #2c2b2b;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contenedor-img-climax1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-img-climax1 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+.contenedor-img-climax2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-img-climax2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/*=================== fin desarrollo del about-game==============================*/
+
+
+/*=================== desarrollo del gameplay section==============================*/
+
+.jugabilidad-section {
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 30dvh;
+    background: #07152d;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding: 32px 60px;
+}
+
+.h2-gameplay {
+    color: #FFD60A;
+    font-size: 1rem;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+
+.feature {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #f5f5f5;
+    padding: 20px;
+}
+
+.feature:nth-child(2) {
+    border-left: none;
+}
+
+.feature h3 {
+    color: #f5f5f5;
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: 1.2rem;
     color: #f5f5f5;
 }
 
-.content-img-footer{
-    max-width: 20%;
+i {
+    font-size: 3.3rem;
+    color: #003791;
 }
 
-.content-img-footer img{
+.game-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
     width: 100%;
 }
 
-/*section de logos de redes sociales de la pagina*/
-.section-social{
-    margin-right: 10px;
+/*video section*/
+
+.video-game {
+    width: 100%;
+    min-height: 70dvh;
     display: flex;
-    gap: 5px;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 20px 60px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
 }
 
-.h5-footer{
+.trailer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    gap: 20px;
+}
+
+.trailer-info h2 {
+    color: #f5f5f5;
+    font-size: 2.2rem;
+}
+
+.trailer-info p {
+    padding: 0 18px;
+    color: #f5f5f5;
+    font-size: 1.6rem;
+}
+
+.trailer-info span {
+    color: #B11226;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.trailer-video {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trailer-video h2 {
+    color: #B11226;
+}
+
+.vid-contenedor2 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.game-video {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/*=================== fin desarrollo del gameplay section==============================*/
+
+/*=================== desarrollo del STORE-SECTION==============================*/
+
+.store-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    min-height: 20dvh;
+    background: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/back-gorudPS.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.store-section h2 {
+    color: #f5f5f5;
+}
+
+.store-section p {
+    font-weight: 600;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+.store-section button {
+    padding: 10px 8px;
+    background-color: #FFD60A;
+    border: none;
+    border-radius: 4px;
+}
+
+.store-section button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #f5f5f5;
+}
+
+.store-section button:hover {
+    background-color: #B11226;
+}
+
+.store-section button:active {
+    transform: translateX(2px) translateY(2px);
+}
+
+.store-section img {
+    position: absolute;
+    filter: drop-shadow(0px 0px 1px #eeeeee9c);
+    z-index: 2;
+}
+
+.store-section img:first-child {
+    width: clamp(12%, 8dvw, 13%);
+    left: 5%;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+.store-section img:nth-child(2) {
+    width: clamp(10%, 2dvw, 13%);
+    right: 5%;
+    bottom: 0;
+}
+
+/*<======== fin desarrollo del main =============>*/
+
+/*<=================== inicio desarrollo footer (diseño general) ==============>*/
+.footer {
+    background-color: #000a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 8px;
+    align-items: stretch;
+}
+
+footer section {
+    padding: 16px 24px;
+}
+
+footer section:last-child {
+    border-right: none;
+}
+
+.section-footer-1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px 16px;
+}
+
+.section-footer-1 h2,
+.section-footer-1 p {
+    color: #f5f5f5;
+}
+
+.section-footer-1 h2 {
+    text-align: center;
+}
+
+.content-img-footer {
+    max-width: 100%;
+    display: flex;
+    gap: 12px;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-img-footer img:first-child {
+    width: 100px;
+}
+
+.content-img-footer img:nth-child(2) {
+    width: 200px;
+}
+
+/*section de logos de redes sociales de la pagina*/
+.section-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    height: 100%;
+    width: 280px;
+}
+
+.h5-footer {
     text-align: center;
     font-size: 1.6rem;
     color: #f5f5f5;
 }
 
-.contenedor-logos{
+.contenedor-logos {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
 
-.logo-footer{
+.logo-footer {
     width: 50px;
 }
 
-.logo-footer img{
+.logo-footer img {
     width: 100%;
 }
 
-.logo-footer:first-child{
+.logo-footer:first-child {
     width: 44px;
 }
 
-.logo-footer:last-child{
+.logo-footer:last-child {
     width: 40px;
 }
 
 /*section de los integrantes del grupo*/
-.integrantes{
+.integrantes {
     display: flex;
     flex-direction: column;
 }
 
-.list-footer{
+.list-footer {
     margin: 10px;
     color: #f5f5f5;
 }
 
 /*<=================== fin desarrollo footer(diseño general) ==============>*/
-
