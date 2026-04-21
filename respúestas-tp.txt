@@ -12,7 +12,7 @@ hizo la estructura fuente (inclueye solo el header y foter que las demas paginas
 - ** rojas gonzalo**:
 
 
-- **pablo acuña**:
+- **pablo acuña**: Por mi parte, yo desarrolle la pagina "cronologia y su css correspondiente.
 
 ## Dificultades:
 
@@ -31,7 +31,8 @@ navegar por carpetas.
 - ** rojas gonzalo**:
 
 
-- **pablo acuña**:
+- **pablo acuña**: La dificultad mas grande que encontre es la diferencia de la 
+    estructura de directorios entre los integrantes
 
 
 ## Oraganizacion del trabajo 
@@ -58,7 +59,8 @@ enfocandome solo en mi parte
 - ** rojas gonzalo**:
 
 
-- **pablo acuña**:
+- **pablo acuña**: Fue mucho mas facil compartir nuestro progreso y llevar el trabajo del instituto
+    a mi casa
 
 
 # ¿Qué problema tuvieron al trabajar entre varias personas?
@@ -71,7 +73,7 @@ enfocandome solo en mi parte
 - ** rojas gonzalo**:
 
 
-- **pablo acuña**:
+- **pablo acuña**: Falta de comunicacion acerca de que hacer en general
 
 
 # ¿Por qué creen que usar ramas ayuda en un trabajo colaborativo?
@@ -86,4 +88,5 @@ con los demas desarrolladores
 - ** rojas gonzalo**:
 
 
-- **pablo acuña**:
+- **pablo acuña**: Para no modificar o arruinar el trabajo de un compañero o el proyecto
+    en si por accidente o error.
