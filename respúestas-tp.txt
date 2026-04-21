@@ -25,7 +25,7 @@ en cada repo local de los integrantes del grupo
 navegar por carpetas.
 
 
-- **mariano pino**: 
+- **mariano pino**: Al trabajar con git hub y git tuve mejor control para manejar mis cambios.tuvimos problemas con el tema de sincronisar los links.Creo que las ramas ayudan a poder tener un mejor control sobre el proyecto a la hora de las desiciones creativas de  esta.
 
 
 - ** rojas gonzalo**: En mi parte aún tengo problemas con el css, pero también se nos complico lograr unificar nuestras páginas.
@@ -55,7 +55,7 @@ enfocandome solo en mi parte
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**: A parte de tener un solo trabajo, poder guardar los grandes cambios para luego poder volver sobre nuestros pasos fué algo que me ayudo. 
+- ** rojas gonzalo**:
 
 
 - **pablo acuña**:
@@ -68,7 +68,7 @@ enfocandome solo en mi parte
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**: Yo considero que nos faltó mas comunicación entre nosotros, ya que tuvimos una confución de carpetas.
+- ** rojas gonzalo**:
 
 
 - **pablo acuña**:
@@ -83,7 +83,7 @@ con los demas desarrolladores
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**: Ayuda a que cada uno pueda generar sus cambios sin afectar a los demás.
+- ** rojas gonzalo**:
 
 
 - **pablo acuña**:
