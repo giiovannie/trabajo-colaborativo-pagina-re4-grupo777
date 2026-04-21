@@ -25,7 +25,7 @@ en cada repo local de los integrantes del grupo
 navegar por carpetas.
 
 
-- **mariano pino**: 
+- **mariano pino**: Al trabajar con git hub y git tuve mejor control para manejar mis cambios.tuvimos problemas con el tema de sincronisar los links.Creo que las ramas ayudan a poder tener un mejor control sobre el proyecto a la hora de las desiciones creativas de  esta.
 
 
 - ** rojas gonzalo**:
