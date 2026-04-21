@@ -6,10 +6,10 @@
 hizo la estructura fuente (inclueye solo el header y foter que las demas paginas contienen)
 
 
-- **mariano pino**: 
+- **mariano pino**: yo desarrolle la parte e personajes pricipales, secundarios, villanos
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Yo estuve a cargo de generar el enlace sobre los Easter Eggs del videojuego, generando mi propio main.
 
 
 - **pablo acuña**: Por mi parte, yo desarrolle la pagina "cronologia y su css correspondiente.
@@ -28,7 +28,7 @@ navegar por carpetas.
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: En mi parte aún tengo problemas con el css, pero también se nos complico lograr unificar nuestras páginas.
 
 
 - **pablo acuña**: La dificultad mas grande que encontre es la diferencia de la 
@@ -56,7 +56,7 @@ enfocandome solo en mi parte
 - **mariano pino**: 
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: A parte de tener un solo trabajo, poder guardar los grandes cambios para luego poder volver sobre nuestros pasos fué algo que me ayudo. 
 
 
 - **pablo acuña**: Fue mucho mas facil compartir nuestro progreso y llevar el trabajo del instituto
@@ -67,10 +67,10 @@ enfocandome solo en mi parte
 
 - **ivan gomez**: el problema que tuve fue la rutas de las carpeta son distintas y no la tuve en cuenta
 
-- **mariano pino**: 
+- **mariano pino**: tuve problemas en el merge
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Yo considero que nos faltó mas comunicación entre nosotros, ya que tuvimos una confución de carpetas.
 
 
 - **pablo acuña**: Falta de comunicacion acerca de que hacer en general
@@ -82,10 +82,10 @@ enfocandome solo en mi parte
 - **ivan gomez**: porque evita que la estructura general y funcional no quede afectada por imprevistos o choque
 con los demas desarrolladores
 
-- **mariano pino**: 
+- **mariano pino**:  porque ayuda mucho a la toma de ideass creativas
 
 
-- ** rojas gonzalo**:
+- ** rojas gonzalo**: Ayuda a que cada uno pueda generar sus cambios sin afectar a los demás.
 
 
 - **pablo acuña**: Para no modificar o arruinar el trabajo de un compañero o el proyecto
