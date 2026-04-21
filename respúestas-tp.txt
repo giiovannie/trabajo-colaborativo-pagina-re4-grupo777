@@ -6,7 +6,7 @@
 hizo la estructura fuente (inclueye solo el header y foter que las demas paginas contienen)
 
 
-- **mariano pino**: 
+- **mariano pino**: yo desarrolle la parte e personajes pricipales, secundarios, villanos
 
 
 - ** rojas gonzalo**: Yo estuve a cargo de generar el enlace sobre los Easter Eggs del videojuego, generando mi propio main.
@@ -65,7 +65,7 @@ enfocandome solo en mi parte
 
 - **ivan gomez**: el problema que tuve fue la rutas de las carpeta son distintas y no la tuve en cuenta
 
-- **mariano pino**: 
+- **mariano pino**: tuve problemas en el merge
 
 
 - ** rojas gonzalo**:
@@ -80,7 +80,7 @@ enfocandome solo en mi parte
 - **ivan gomez**: porque evita que la estructura general y funcional no quede afectada por imprevistos o choque
 con los demas desarrolladores
 
-- **mariano pino**: 
+- **mariano pino**:  porque ayuda mucho a la toma de ideass creativas
 
 
 - ** rojas gonzalo**:
