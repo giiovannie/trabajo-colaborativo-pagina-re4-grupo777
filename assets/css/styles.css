@@ -285,7 +285,7 @@ nav a:hover {
 .about-game {
     width: 100%;
     min-height: 100dvh;
-    background: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/background-gamer.png) no-repeat center;
+    background: url(/assets/img/paquete-de-img-fondos-re4/background-gamer.png) no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -521,7 +521,7 @@ iframe {
     justify-content: center;
     align-items: center;
     min-height: 20dvh;
-    background: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/back-gorudPS.png) no-repeat;
+    background: url( assets/img/paquete-de-img-fondos-re4/back-gorudPS.png) no-repeat;
     background-size: cover;
     position: relative;
 }

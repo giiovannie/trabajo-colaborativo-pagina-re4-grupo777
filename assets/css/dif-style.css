@@ -258,7 +258,7 @@ footer section:last-child {
 /* <==================Comienzo de Diferencias.html(main) =================> */
 .referencias {
     min-height: 100dvh;
-    background-image: url(/Pagina_RE4/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png);
+    background-image: url(/assets/img/paquete-fondos-img-re4/portada-pueblo-sin-lion.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,12 +291,12 @@ footer section:last-child {
     margin-left: 15%;
     padding: 10px;
     margin-right: 50%;
-    background-image: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/barra.jpg);
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/barra.jpg);
 }
 
 .Diferencias {
     min-height: 100dvh;
-    background-image: url(/Pagina_RE4/assets/img/paquete-de-img-fondos-re4/menu+de+galeria2.jpg);
+    background-image: url(/assets/img/paquete-de-img-fondos-re4/menu+de+galeria2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
